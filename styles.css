@@ -366,6 +366,12 @@ body {
   padding-bottom: env(safe-area-inset-bottom);
 }
 
+@media (min-width: 1440px) {
+  body {
+    font-size: 125%;
+  }
+}
+
 a {
   text-decoration: none;
 }
@@ -425,18 +431,18 @@ section {
 
 /* Headings */
 h1 {
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: normal;
   margin: 0;
 }
 h2 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   line-height: 1.333333333;
   margin-top: 0;
   margin-bottom: 0.5em;
 }
 h3 {
-  font-size: 1.25em;
+  font-size: 1.25rem;
   line-height: 1.2;
   margin-top: 0;
   margin-bottom: 0.5em;
@@ -444,11 +450,11 @@ h3 {
 
 @media (min-width: 768px) {
   h2 {
-    font-size: 2em;
+    font-size: 2rem;
     line-height: 1.25;
   }
   h3 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     line-height: 1.333333333;
   }
 }
@@ -461,7 +467,7 @@ h3 {
   color: #034730;
 }
 .text-hero {
-  font-size: 2em;
+  font-size: 2rem;
   line-height: 1.25;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -469,13 +475,13 @@ h3 {
 
 @media (min-width: 992px) {
   .text-hero {
-    font-size: 3em;
+    font-size: 3rem;
   }
 }
 
 @media (min-width: 1200px) {
   .text-hero {
-    font-size: 3.5em;
+    font-size: 3.5rem;
     line-height: 1.142857143;
   }
 }
@@ -515,6 +521,12 @@ h3 {
   .md-mt-0 {
     margin-top: 0;
   }
+  .md-mt-1 {
+    margin-top: 1em;
+  }
+  .md-mt-2 {
+    margin-top: 2em;
+  }
   .md-mr-1 {
     margin-right: 1em;
   }
@@ -523,6 +535,9 @@ h3 {
   }
 }
 /* Form */
+label {
+  font-size: 1rem;
+}
 label,
 input {
   display: block;
@@ -561,7 +576,7 @@ input:focus {
 }
 @media (min-width: 768px) {
   [type="submit"] {
-    width: 160px;
+    width: 10em;
   }
 }
 
