@@ -596,8 +596,11 @@ input:focus {
   border: 0;
 }
 
-/* Hero Section */
-
+/* Contact Section */
+.banner {
+  background: #1d8200;
+  padding: 1em;
+}
 /* About Section */
 @media (min-width: 992px) {
   #about {
