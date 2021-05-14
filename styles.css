@@ -596,6 +596,21 @@ input:focus {
   border: 0;
 }
 
+/* Hero Section */
+.stg-logo {
+  display: block;
+  height: auto;
+  width: 160px;
+}
+
+@media (min-width: 768px) {
+  #hero .col:first-child {
+    order: 1;
+  }
+  .stg-logo {
+    width: 100%;
+  }
+}
 /* Contact Section */
 .banner {
   background: #1d8200;
