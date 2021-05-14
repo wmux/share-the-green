@@ -377,6 +377,7 @@ a {
 }
 a:focus {
   text-decoration: underline;
+  outline-color: transparent;
 }
 
 .flex {
@@ -397,6 +398,9 @@ a:focus {
 }
 .content-end {
   justify-content: flex-end;
+}
+
+.stg-logo {
 }
 
 section {
@@ -461,7 +465,7 @@ h3 {
 
 /* Text Utilities */
 .text-white {
-  color: white;
+  color: #f7f8f2;
 }
 .text-green-2 {
   color: #034730;
@@ -592,6 +596,8 @@ input:focus {
   border: 0;
 }
 
+/* Hero Section */
+
 /* About Section */
 @media (min-width: 992px) {
   #about {
@@ -616,8 +622,8 @@ input:focus {
 
 /* Footer */
 footer {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 /* @FontFace */
 @font-face {
