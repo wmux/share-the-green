@@ -530,6 +530,7 @@ input {
 }
 input {
   border: 1px solid #979797;
+  box-shadow: none;
   border-radius: 0.25em;
   padding: 0.75em;
 }
