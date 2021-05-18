@@ -76,7 +76,36 @@
             action="/thanks/#contact"
             netlify
           >
-            <div class="mt-1 md-mt-0">
+            <div class="md-flex items-center mt-1 md-mt-0">
+              <h2 class="fz-16 fw-normal mb-0 sm-mb-1 md-mr-2">
+                I'm interested in:
+              </h2>
+              <div class="flex">
+                <label class="flex mr-2" for="participate">
+                  <input
+                    type="radio"
+                    class="sr-only"
+                    id="participate"
+                    name="Interest"
+                    value="participant"
+                    checked
+                  />
+                  <span class="flex fz-16 inline-block">Participating</span>
+                </label>
+                <label class="flex" for="sponsoring">
+                  <input
+                    type="radio"
+                    class="sr-only"
+                    id="sponsoring"
+                    name="Interest"
+                    value="sponsor"
+                  />
+                  <span class="flex fz-16 inline-block">Sponsoring</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="mt-1">
               <label for="fullName">Full Name</label>
               <input type="text" id="fullName" name="Full Name" />
             </div>
